@@ -2,8 +2,7 @@ import React from 'react';
 import { 
     Text, 
     View,
-    Image,
-    StatusBar
+    Image
 } from 'react-native';
 
 import { styles } from './styles';
@@ -13,8 +12,7 @@ import { ButtonIcon } from '../../components/ButtonIcon';
 
 export function SignIn() {
     return (
-        <View style={styles.container}>
-            <StatusBar barStyle='light-content' backgroundColor="transparent" translucent />
+        <View style={styles.container}>            
             <Image source={ilustrationImage} 
             style={styles.image} 
             resizeMode='stretch'
